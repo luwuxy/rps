@@ -1,11 +1,4 @@
 function getComputerChoice() {
-    /*
-    Generate a random number with a maximum value of 3
-    Assign it to a variable called computerChoice
-    If computerChoice is equal to 0, return "rock"
-    Else if computerChoice is equal to 1, return "paper"
-    Else if computerChoice is equal to 2, return "scissors"
-     */
     const rps = ["rock", "paper", "scissors"];
     return rps[Math.floor(Math.random() * rps.length)]
 }
